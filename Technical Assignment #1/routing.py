@@ -21,4 +21,4 @@ def post_data():
     return f"{data['name']} berhasil mengirimkan data {data['value']}", 201
 
 if __name__ == '__main__':
-    app.run(debug=True, host="172.23.13.247", port=8000)
+    app.run(debug=True, host="172.23.13.247", port=8000) #host=ip address wifi connected, port=port number
